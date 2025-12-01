@@ -1,0 +1,151 @@
+Respondent_ID,Country,Age,Gender,Education_Level,Job_Role,Years_Coding,Primary_Language,ML_Experience,Salary_USD,Uses_AutoML,Favorite_Framework,Time_Spent_Learning_Weekly
+1,Canada,31,Female,Bachelor's,Business Analyst,3,SQL,1-2 years,105763,Yes,Keras,3
+2,Brazil,42,Other,PhD,Researcher,0,R,3-5 years,57100,Yes,Keras,2
+3,UK,36,Female,PhD,Researcher,18,SQL,<1 year,117567,No,XGBoost,12
+4,UK,36,Other,Master's,Business Analyst,3,Python,>10 years,49903,Yes,TensorFlow,6
+5,UK,19,Prefer not to say,Bachelor's,Data Scientist,1,R,>10 years,36143,No,XGBoost,13
+6,USA,62,Male,Bachelor's,Student,16,Python,>10 years,132499,Yes,TensorFlow,9
+7,India,56,Other,Bachelor's,ML Engineer,7,Julia,1-2 years,160366,No,PyTorch,17
+8,UK,39,Prefer not to say,Other,Data Scientist,0,C++,>10 years,196423,Yes,PyTorch,2
+9,Canada,49,Female,Bachelor's,ML Engineer,3,Julia,5-10 years,131826,Yes,Keras,7
+10,UK,55,Prefer not to say,PhD,Researcher,4,R,<1 year,161989,Yes,TensorFlow,1
+11,Brazil,63,Prefer not to say,Other,Software Engineer,11,SQL,5-10 years,43197,Yes,Keras,6
+12,USA,24,Female,PhD,Business Analyst,12,Julia,3-5 years,81352,Yes,TensorFlow,10
+13,Brazil,19,Male,Other,Data Scientist,3,Java,5-10 years,141317,Yes,XGBoost,16
+14,Brazil,37,Prefer not to say,High School,Business Analyst,4,C++,>10 years,76042,No,PyTorch,10
+15,Australia,30,Female,High School,Software Engineer,7,SQL,5-10 years,174299,No,PyTorch,13
+16,Australia,51,Other,Bachelor's,Researcher,15,R,>10 years,114945,No,Scikit-learn,5
+17,Brazil,24,Female,Bachelor's,Researcher,12,Julia,3-5 years,157048,No,PyTorch,10
+18,Australia,30,Female,Other,Student,18,C++,>10 years,29940,Yes,TensorFlow,4
+19,USA,63,Female,Other,ML Engineer,9,Julia,>10 years,66110,Yes,PyTorch,19
+20,Brazil,18,Female,PhD,Student,16,Python,>10 years,78550,No,Scikit-learn,10
+21,USA,30,Prefer not to say,Other,ML Engineer,5,C++,<1 year,119667,Yes,XGBoost,8
+22,Pakistan,60,Other,Other,Data Scientist,11,C++,>10 years,152498,No,PyTorch,7
+23,Germany,64,Male,High School,ML Engineer,8,Java,>10 years,54381,Yes,PyTorch,7
+24,Australia,22,Male,PhD,Student,4,C++,3-5 years,24110,No,Scikit-learn,9
+25,UK,22,Other,Other,Researcher,10,Julia,3-5 years,56753,Yes,Scikit-learn,13
+26,Brazil,51,Male,High School,Student,3,Python,5-10 years,116409,No,Scikit-learn,5
+27,USA,30,Prefer not to say,Bachelor's,Data Scientist,0,R,<1 year,95763,No,None,19
+28,USA,43,Female,Other,Software Engineer,10,SQL,<1 year,140203,No,XGBoost,17
+29,UK,28,Other,PhD,Researcher,13,R,>10 years,136058,Yes,PyTorch,13
+30,Brazil,44,Other,Other,Business Analyst,6,R,>10 years,168686,Yes,None,18
+31,USA,63,Male,Bachelor's,Software Engineer,19,Python,1-2 years,20752,Yes,Keras,10
+32,Brazil,44,Other,PhD,ML Engineer,12,Julia,>10 years,128105,Yes,Scikit-learn,10
+33,UK,57,Prefer not to say,Other,ML Engineer,5,R,5-10 years,43960,No,XGBoost,14
+34,USA,22,Male,PhD,Researcher,11,Java,3-5 years,43083,No,TensorFlow,17
+35,USA,19,Other,High School,Researcher,19,R,3-5 years,147604,Yes,XGBoost,2
+36,UK,23,Other,PhD,Data Scientist,0,Python,1-2 years,114262,Yes,TensorFlow,15
+37,Germany,51,Female,Bachelor's,Student,3,R,<1 year,34744,No,XGBoost,13
+38,India,52,Prefer not to say,High School,Researcher,10,R,5-10 years,61414,Yes,TensorFlow,19
+39,UK,51,Other,High School,ML Engineer,6,C++,1-2 years,138339,Yes,TensorFlow,15
+40,Canada,23,Prefer not to say,Other,Data Scientist,17,R,1-2 years,89562,Yes,Keras,14
+41,UK,39,Male,Other,Data Scientist,9,SQL,1-2 years,66267,No,PyTorch,7
+42,UK,23,Male,Bachelor's,Researcher,0,R,>10 years,151071,Yes,Scikit-learn,4
+43,Australia,20,Female,Other,Researcher,12,R,<1 year,94893,Yes,Scikit-learn,14
+44,Canada,62,Prefer not to say,PhD,Software Engineer,17,R,1-2 years,172133,Yes,PyTorch,12
+45,Canada,39,Male,High School,Software Engineer,11,Python,>10 years,40752,Yes,None,13
+46,UK,61,Other,Other,Student,10,SQL,1-2 years,122728,No,None,14
+47,Germany,59,Other,Other,Researcher,16,R,<1 year,178115,Yes,XGBoost,1
+48,Brazil,32,Male,High School,ML Engineer,15,R,1-2 years,85970,Yes,PyTorch,7
+49,Canada,28,Female,Other,Researcher,14,Python,5-10 years,70672,Yes,XGBoost,1
+50,UK,35,Female,PhD,Data Scientist,9,R,3-5 years,133761,Yes,None,7
+51,UK,45,Other,Bachelor's,Researcher,5,Julia,1-2 years,37665,Yes,Keras,7
+52,Brazil,55,Prefer not to say,Master's,Software Engineer,13,Python,>10 years,112526,Yes,XGBoost,8
+53,USA,44,Female,Master's,Software Engineer,4,Java,>10 years,190027,Yes,PyTorch,10
+54,UK,36,Male,PhD,Student,13,C++,1-2 years,116089,Yes,TensorFlow,7
+55,UK,22,Female,Bachelor's,Software Engineer,17,SQL,3-5 years,70251,Yes,TensorFlow,1
+56,Brazil,33,Prefer not to say,High School,Researcher,11,Julia,<1 year,75378,Yes,XGBoost,12
+57,USA,24,Male,Bachelor's,ML Engineer,13,R,3-5 years,50088,No,TensorFlow,8
+58,Australia,18,Female,PhD,Data Scientist,10,SQL,1-2 years,60750,No,PyTorch,2
+59,Australia,40,Male,Master's,Student,5,Java,5-10 years,174997,Yes,Scikit-learn,3
+60,Brazil,19,Male,PhD,Business Analyst,6,Julia,5-10 years,38753,No,XGBoost,11
+61,Pakistan,41,Male,PhD,ML Engineer,19,SQL,>10 years,50417,No,None,8
+62,Canada,42,Male,PhD,Data Scientist,2,Python,1-2 years,23863,Yes,Keras,11
+63,UK,19,Other,Bachelor's,Software Engineer,4,Java,>10 years,96025,Yes,XGBoost,5
+64,India,51,Other,Bachelor's,Student,0,R,<1 year,180416,No,XGBoost,13
+65,UK,30,Female,Master's,Business Analyst,6,R,1-2 years,44562,No,None,14
+66,UK,39,Other,High School,Student,3,Java,1-2 years,55978,Yes,TensorFlow,9
+67,Canada,20,Male,PhD,Student,14,R,3-5 years,64562,No,Scikit-learn,5
+68,Brazil,36,Female,Other,Student,15,C++,<1 year,126395,No,PyTorch,13
+69,Pakistan,57,Male,PhD,Student,8,SQL,<1 year,120027,Yes,Keras,11
+70,Australia,59,Prefer not to say,Other,ML Engineer,11,C++,5-10 years,70184,Yes,PyTorch,7
+71,Pakistan,24,Prefer not to say,Master's,Business Analyst,12,SQL,<1 year,198387,No,XGBoost,11
+72,Germany,19,Female,Master's,Data Scientist,4,C++,5-10 years,199879,Yes,PyTorch,14
+73,India,37,Male,High School,Student,14,SQL,1-2 years,61270,No,None,13
+74,Brazil,57,Female,Master's,Data Scientist,6,C++,3-5 years,116872,No,TensorFlow,11
+75,Australia,46,Male,PhD,Student,10,Python,5-10 years,62316,Yes,Scikit-learn,4
+76,Canada,63,Female,Other,Software Engineer,11,SQL,<1 year,156578,No,PyTorch,8
+77,USA,49,Prefer not to say,PhD,Data Scientist,0,SQL,3-5 years,175127,Yes,PyTorch,8
+78,Brazil,64,Male,Other,Software Engineer,18,Julia,>10 years,78614,No,Scikit-learn,8
+79,USA,30,Prefer not to say,Bachelor's,ML Engineer,19,SQL,3-5 years,81691,Yes,Scikit-learn,4
+80,Germany,23,Prefer not to say,Master's,Software Engineer,5,C++,<1 year,95907,No,None,17
+81,Canada,18,Male,High School,Student,19,Python,5-10 years,175052,No,None,12
+82,Canada,40,Male,High School,Researcher,1,Java,<1 year,154900,Yes,XGBoost,18
+83,UK,39,Female,High School,Software Engineer,15,C++,<1 year,35104,Yes,None,2
+84,Canada,31,Male,Bachelor's,Business Analyst,6,Python,5-10 years,181915,No,Keras,6
+85,India,64,Male,Master's,Software Engineer,7,Julia,<1 year,76606,No,None,10
+86,Germany,54,Prefer not to say,Other,Data Scientist,7,SQL,1-2 years,38412,Yes,None,13
+87,Brazil,37,Male,Bachelor's,ML Engineer,11,C++,<1 year,160302,No,TensorFlow,18
+88,UK,48,Other,High School,ML Engineer,6,Python,1-2 years,154810,Yes,None,11
+89,Brazil,27,Other,Bachelor's,ML Engineer,12,Julia,<1 year,37635,Yes,PyTorch,5
+90,Pakistan,36,Male,Other,ML Engineer,0,Python,5-10 years,73266,Yes,TensorFlow,10
+91,India,55,Other,Bachelor's,Business Analyst,11,Julia,1-2 years,72674,No,PyTorch,17
+92,Canada,52,Other,Master's,Student,17,Java,>10 years,109648,No,TensorFlow,13
+93,India,22,Other,Other,Data Scientist,3,C++,<1 year,21369,Yes,Keras,18
+94,India,46,Other,PhD,ML Engineer,9,Julia,5-10 years,169622,No,XGBoost,6
+95,UK,43,Prefer not to say,PhD,Researcher,10,Java,<1 year,153727,Yes,PyTorch,7
+96,UK,27,Female,High School,Researcher,14,R,<1 year,160081,No,PyTorch,18
+97,Pakistan,30,Male,PhD,Researcher,6,SQL,<1 year,111647,Yes,XGBoost,3
+98,Brazil,29,Other,Bachelor's,Business Analyst,6,R,1-2 years,165982,No,PyTorch,1
+99,Brazil,46,Male,High School,Software Engineer,0,C++,5-10 years,163713,No,PyTorch,2
+100,Germany,48,Other,Other,Researcher,11,Java,3-5 years,130275,No,None,10
+101,Germany,39,Male,Bachelor's,Data Scientist,19,Julia,1-2 years,76016,No,XGBoost,12
+102,Pakistan,18,Female,PhD,Business Analyst,0,R,5-10 years,70632,Yes,Scikit-learn,13
+103,UK,24,Other,Master's,ML Engineer,5,C++,1-2 years,152285,Yes,XGBoost,10
+104,Canada,42,Male,Bachelor's,Researcher,17,Java,5-10 years,163194,Yes,Keras,10
+105,Australia,19,Prefer not to say,Master's,Researcher,5,R,5-10 years,79339,Yes,PyTorch,1
+106,Australia,53,Other,PhD,Software Engineer,14,Julia,>10 years,52506,No,Keras,13
+107,Canada,18,Female,High School,Business Analyst,10,Julia,<1 year,52403,Yes,TensorFlow,3
+108,UK,39,Female,High School,Software Engineer,18,Java,1-2 years,130993,Yes,PyTorch,2
+109,Germany,18,Other,Master's,Student,16,SQL,>10 years,41491,Yes,XGBoost,15
+110,Canada,18,Prefer not to say,Other,Business Analyst,6,C++,3-5 years,146262,Yes,Scikit-learn,14
+111,Canada,59,Male,Bachelor's,Student,5,Java,>10 years,155981,Yes,None,2
+112,India,31,Prefer not to say,PhD,Researcher,5,C++,<1 year,73820,Yes,TensorFlow,16
+113,Canada,26,Male,PhD,Student,18,Julia,1-2 years,197890,Yes,XGBoost,9
+114,USA,30,Prefer not to say,High School,Researcher,9,R,>10 years,172590,No,None,15
+115,UK,39,Prefer not to say,High School,ML Engineer,11,C++,5-10 years,184481,No,TensorFlow,13
+116,USA,43,Male,PhD,Student,18,Python,1-2 years,166437,No,PyTorch,14
+117,Australia,61,Female,PhD,Student,12,Python,<1 year,164025,No,Scikit-learn,1
+118,Australia,35,Male,High School,Business Analyst,17,Java,<1 year,170807,Yes,XGBoost,15
+119,UK,62,Prefer not to say,High School,Software Engineer,12,R,1-2 years,118343,Yes,XGBoost,6
+120,Canada,50,Male,Master's,ML Engineer,2,R,>10 years,34293,No,PyTorch,13
+121,Germany,39,Male,Other,Researcher,6,R,1-2 years,162789,No,None,10
+122,Australia,22,Prefer not to say,Bachelor's,Software Engineer,2,Python,5-10 years,165510,No,Scikit-learn,6
+123,Brazil,36,Female,High School,Data Scientist,10,C++,>10 years,130957,No,PyTorch,12
+124,USA,64,Other,Bachelor's,Student,7,Python,3-5 years,165065,Yes,PyTorch,17
+125,Australia,49,Female,Master's,ML Engineer,6,R,1-2 years,131887,Yes,PyTorch,14
+126,India,28,Prefer not to say,Other,Researcher,15,SQL,3-5 years,163586,Yes,None,1
+127,India,46,Prefer not to say,High School,Software Engineer,12,C++,3-5 years,155197,Yes,TensorFlow,9
+128,Germany,54,Other,High School,Student,0,SQL,1-2 years,64070,No,TensorFlow,2
+129,India,52,Other,Master's,Data Scientist,4,Python,3-5 years,66014,No,TensorFlow,11
+130,USA,35,Male,High School,ML Engineer,7,Julia,>10 years,60886,No,PyTorch,7
+131,Brazil,33,Male,Other,Student,2,SQL,1-2 years,188122,No,Scikit-learn,11
+132,UK,33,Female,Bachelor's,Data Scientist,3,C++,1-2 years,99469,Yes,Scikit-learn,18
+133,Australia,30,Male,Other,Researcher,8,R,>10 years,136447,No,Scikit-learn,2
+134,Germany,31,Male,Other,Business Analyst,4,Julia,5-10 years,63232,No,PyTorch,15
+135,Australia,38,Female,Other,Researcher,5,Julia,>10 years,101580,No,Scikit-learn,11
+136,USA,55,Female,PhD,Business Analyst,14,SQL,3-5 years,142222,Yes,XGBoost,17
+137,USA,35,Male,Other,Data Scientist,8,C++,<1 year,105005,Yes,PyTorch,1
+138,Pakistan,51,Female,Master's,Student,9,Julia,3-5 years,69020,Yes,PyTorch,11
+139,Pakistan,59,Prefer not to say,Master's,Software Engineer,13,Julia,1-2 years,196314,Yes,Keras,11
+140,Brazil,30,Female,Master's,Business Analyst,8,Julia,1-2 years,28772,No,Keras,1
+141,UK,21,Male,Other,Data Scientist,1,Java,3-5 years,59076,Yes,None,1
+142,Pakistan,41,Other,High School,ML Engineer,14,Java,3-5 years,101497,No,Scikit-learn,10
+143,Brazil,27,Prefer not to say,Other,Researcher,8,Julia,>10 years,142043,Yes,TensorFlow,4
+144,Canada,53,Other,PhD,Software Engineer,3,Java,<1 year,37718,Yes,Keras,14
+145,Germany,34,Female,Master's,Student,8,Java,5-10 years,55906,No,TensorFlow,16
+146,Canada,25,Female,Bachelor's,Researcher,5,Julia,5-10 years,59303,Yes,Keras,14
+147,India,64,Male,Other,ML Engineer,13,Python,1-2 years,173325,Yes,TensorFlow,5
+148,Germany,58,Male,Master's,ML Engineer,6,Julia,5-10 years,46277,No,TensorFlow,4
+149,Canada,62,Other,Bachelor's,Student,7,Julia,5-10 years,38807,No,Scikit-learn,12
+150,UK,60,Other,Other,ML Engineer,7,Julia,5-10 years,171016,No,TensorFlow,17

@@ -1,0 +1,5 @@
+csv6 <- read.csv("csv6.csv")
+View(csv6)
+attach(csv6)
+model <- lm(sepal_length ~ sepal_width)
+summary(model)
