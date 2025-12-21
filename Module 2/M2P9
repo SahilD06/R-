@@ -1,0 +1,24 @@
+
+library(ggplot2)
+
+sales <- read.csv("csv7.csv")
+
+sales$Payment_Method <- as.factor(sales$Payment_Method)
+sales$Customer_Type <- as.factor(sales$Customer_Type)
+
+pay_cust_table <- table(sales$Payment_Method, sales$Customer_Type)
+pay_cust_table
+
+chi_result <- chisq.test(pay_cust_table)
+chi_result
+
+ggplot(sales, aes(x = Payment_Method, fill = Customer_Type)) +
+  geom_bar(position = "dodge") +
+  labs(
+    title = "Customer Type by Payment Method",
+    x = "Payment Method",
+    y = "Count",
+    fill = "Customer Type"
+  ) +
+  theme_minimal() +
+  scale_fill_manual(values = c("lightblue", "orange"))
