@@ -1,0 +1,22 @@
+data <- read.csv("csv8.csv")
+
+colnames(data)
+
+data$QP1_level <- as.factor(ifelse(data$QP1 <= median(data$QP1, na.rm = TRUE), "Low", "High"))
+data$QP2_level <- as.factor(ifelse(data$QP2 <= median(data$QP2, na.rm = TRUE), "Low", "High"))
+
+anova_two <- aov(SP1 ~ QP1_level * QP2_level, data = data)
+summary(anova_two)
+
+interaction.plot(
+  data$QP1_level,
+  data$QP2_level,
+  data$SP1,
+  xlab = "QP1 Level",
+  ylab = "Mean SP1",
+  trace.label = "QP2 Level",
+  main = "Interaction Plot: QP1 and QP2 Levels on SP1",
+  col = c("blue", "red"),
+  lty = 1:2,
+  pch = c(19, 17)
+)
