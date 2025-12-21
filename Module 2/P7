@@ -1,0 +1,7 @@
+data9 <- read.csv("csv9.csv")
+
+data9$basement <- as.factor(data9$basement)
+
+anova_res <- aov(bedrooms ~ basement, data =  data9)
+
+summary(anova_res)
