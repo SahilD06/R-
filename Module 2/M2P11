@@ -1,0 +1,8 @@
+library(ggplot2)
+data <- read.csv("csv4.csv")
+p <- ggplot(data, aes(x = test_score)) +
+  geom_histogram(bins = 10)+
+  geom_boxplot(fill = "orange")
+
+
+ggsave("scatter_plot.png", plot = p)
