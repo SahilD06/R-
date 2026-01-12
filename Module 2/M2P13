@@ -1,0 +1,4 @@
+data <- read.csv("csv4.csv")
+data$gender <- as.factor(data$gender)
+model <- lm(test_score ~ hours_studied + attendance_percent + assignments_completed + gender, data = data)
+summary(model)
