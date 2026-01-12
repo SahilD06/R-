@@ -1,0 +1,6 @@
+data <- read.csv("csv4.csv")
+selected_data <- data[, c("hours_studied",
+                                  "attendance_percent",
+                                  "assignments_completed",
+                                  "test_score")]
+cor(selected_data)
