@@ -5,4 +5,4 @@ p <- ggplot(data, aes(x = test_score)) +
   geom_boxplot(fill = "orange")
 
 
-ggsave("scatter_plot.png", plot = p)
+ggsave("histobox.png", plot = p)
