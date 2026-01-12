@@ -1,0 +1,24 @@
+library(ggplot2)
+
+data <- read.csv("csv4.csv")
+#scatter
+p1 <- ggplot(data, aes(x = student_id, y = attendance_percent)) +
+  geom_point() +
+  labs(title = "Scatter Plot of Hours Studied vs Marks",
+       x = "Hours Studied",
+       y = "Marks Obtained")
+#pie chart
+p2 <- ggplot(data, aes(x = "", y = assignments_completed, fill = student_id)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar("y") +
+  labs(title = "Pie Chart Representation")
+#high/low chart
+p3 <- ggplot(data, aes(x = student_id)) +
+  geom_linerange(aes(ymin = hours_studied, ymax = test_score)) +
+  labs(title = "High-Low Chart",
+       x = "Student",
+       y = "Range")
+
+ggsave("scatter.png", plot = p1)
+ggsave("pie.png", plot = p2)
+ggsave("highlow.png", plot = p3)
