@@ -1,4 +1,9 @@
+library(writexl)
+
 data <- read.csv("csv4.csv")
 data$gender <- as.factor(data$gender)
 model <- lm(test_score ~ hours_studied + attendance_percent + assignments_completed + gender, data = data)
-summary(model)
+
+model_excel <- summary(model)$coefficients
+
+write_xlsx(as.data.frame(model_excel),"lm.xlsx")
