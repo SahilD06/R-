@@ -3,4 +3,6 @@ data$pass <- ifelse(data$test_score >= 52, 1, 0)
 model_glm <- glm(pass ~ hours_studied + attendance_percent + assignments_completed + gender,
                  family = "binomial", data = data)
 
-summary(model_glm)
+
+model <- summary(model_glm)$coefficients
+write.csv(model,"glm.csv")
